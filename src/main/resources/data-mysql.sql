@@ -1,0 +1,6 @@
+INSERT INTO position (id, created_on, updated_on, version, name, position_code, position_description, position_type) VALUES (1, '2018-04-10 14:46:19.282', null, 1, 'arquitecto', 'arquitecto', 'Arquitecto de Obra', 1);
+INSERT INTO position (id, created_on, updated_on, version, name, position_code, position_description, position_type) VALUES (2, '2018-04-10 14:46:19.282', null, 1, 'ingeniero civil', 'ingeniero civil', 'Ingeniero de Obra', 1);
+INSERT INTO employee (id, created_on, updated_on, version, address, birth_date, ci, first_name, gender, last_name, phone) VALUES (1, '2018-04-10 14:46:19.282', null, 1, 'Av. America', '2000-04-10 14:46:19.282', 12345, 'Juan', 'male', 'Perez', 72270673);
+INSERT INTO employee (id, created_on, updated_on, version, address, birth_date, ci, first_name, gender, last_name, phone) VALUES (2, '2018-04-10 14:46:19.282', null, 1, 'Av. America', '1998-06-05 14:46:19.282', 45678, 'Maria', 'female', 'Rodriguez', 67483456);
+INSERT INTO contract (id, created_on, updated_on, version, employee_id, position_id) VALUES (1, '2018-04-10 14:46:19.282', null, 1, 1, 1);
+INSERT INTO contract (id, created_on, updated_on, version, employee_id, position_id) VALUES (2, '2018-04-10 14:46:19.282', null, 1, 2, 2);
