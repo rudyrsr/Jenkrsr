@@ -52,11 +52,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jersey</artifactId>
         </dependency>
-   
-       <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-jersey</artifactId>
-        </dependency>
+  
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-multipart</artifactId>
@@ -77,7 +73,8 @@
             <version>2.6.1</version>
             <scope>compile</scope>
         </dependency>
-
+          
+             
 
 
         <!--<dependency>
@@ -97,7 +94,14 @@
              <artifactId>mssql-jdbc</artifactId>
              <version>6.4.0.jre8</version>
         </dependency>
-      
+      <dependency>
+	  <!-- nuevo -->
+        <groupId>org.olap4j</groupId>
+	<artifactId>olap4j-xmlaserver</artifactId>
+	<version>1.2.0</version>
+        </dependency>
+             
+             
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
